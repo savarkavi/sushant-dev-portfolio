@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 218, 186);
+  mix-blend-mode: multiply;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 2px white;
+}
