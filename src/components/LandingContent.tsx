@@ -16,12 +16,12 @@ const LandingContent = () => {
 
   const y1 = useTransform(
     scrollYProgress,
-    [0, 0.05],
+    [0, mobile ? 0.1 : 0.05],
     [0, mobile ? -550 : -850]
   );
   const y2 = useTransform(
     scrollYProgress,
-    [0, 0.1, 0.12],
+    [0, mobile ? 0.12 : 0.1, mobile ? 0.15 : 0.12],
     [0, 0, mobile ? -450 : -500]
   );
 
