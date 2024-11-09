@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
+import { useMediaQuery } from "usehooks-ts";
 
 const About = () => {
   const ref = useRef(null);
@@ -11,8 +12,18 @@ const About = () => {
     offset: ["start end", "end start"],
   });
 
-  const xLeft = useTransform(scrollYProgress, [0.1, 0.7], [0, -520]);
-  const xRight = useTransform(scrollYProgress, [0.1, 0.7], [0, 520]);
+  const mobile = useMediaQuery("(max-width: 1280px)");
+
+  const xLeft = useTransform(
+    scrollYProgress,
+    [mobile ? 0.3 : 0.1, 0.7],
+    [0, -520]
+  );
+  const xRight = useTransform(
+    scrollYProgress,
+    [mobile ? 0.3 : 0.1, 0.7],
+    [0, 520]
+  );
 
   return (
     <div

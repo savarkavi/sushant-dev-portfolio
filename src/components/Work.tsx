@@ -20,39 +20,49 @@ const Work = () => {
           image="/landing_image.jpg"
           alt="image"
           title="Intelliclick"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          color="bg-pink-300"
+          link="https://www.intelliclick.in/"
+          desc="Build and maintained custom server on AWS, RESTful APIs using Node.js and Express and worked on various intricate responsive UI"
         />
         <WorkCard
           num="02"
           type="Web App"
           image="/landing_image.jpg"
           alt="image"
-          title="Document"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          title="Mind Draft"
+          color="bg-green-300"
+          link="https://mind-draft.vercel.app/"
+          desc="An A.I powered notes and documents management app. Create notes with powerful notion-like editor and upload documents and summarize them through A.I."
         />
         <WorkCard
           num="03"
           type="Internship"
           image="/landing_image.jpg"
           alt="image"
-          title="Intelliclick"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          title="Dev Station"
+          color="bg-rose-400"
+          link="https://dev-station-inky.vercel.app/"
+          desc="Dev Station is a platform to video call, create rooms and share your screen with other developers online to code together."
         />
         <WorkCard
           num="04"
           type="Web App"
           image="/landing_image.jpg"
           alt="image"
-          title="Document"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          title="Snake Case"
+          color="bg-blue-400"
+          link="https://sanke-case.vercel.app/"
+          desc="An E-commerce shop where you can upload and build custom phone cases of your choice and buy them with stripe payments."
         />
         <WorkCard
           num="05"
           type="Internship"
           image="/landing_image.jpg"
           alt="image"
-          title="Intelliclick"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          title="Taskify"
+          color="bg-amber-300"
+          link="https://trello-clone-sigma-wine.vercel.app/"
+          desc="A full-stack advanced task management app inspired by Trello."
         />
         <WorkCard
           num="06"
@@ -60,6 +70,8 @@ const Work = () => {
           image="/landing_image.jpg"
           alt="image"
           title="Document"
+          color="bg-fuchsia-400"
+          link="https://trello-clone-sigma-wine.vercel.app/"
           desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
         />
       </div>
