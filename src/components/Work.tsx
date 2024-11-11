@@ -69,10 +69,10 @@ const Work = () => {
           type="Web App"
           image="/landing_image.jpg"
           alt="image"
-          title="Document"
+          title="The Frontend Cosmere"
           color="bg-fuchsia-400"
-          link="https://trello-clone-sigma-wine.vercel.app/"
-          desc="jbjdf sjdfns slkdlsd sdjnfsjnsdn djfb djs fbsjdfbskd sdnksjndnc sjdcnsdcs djcnskjdbc "
+          link="https://the-frontend-cosmere.vercel.app/"
+          desc="A collection of complex web 2d animations, highlighting my frontend prowess."
         />
       </div>
     </div>
