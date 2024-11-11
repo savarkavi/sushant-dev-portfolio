@@ -64,18 +64,19 @@ const About = () => {
             />
           </motion.div>
         </div>
-        <p className="text-white xl:text-xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[450px] font-serif px-16 xl:p-0">
-          As a full-stack developer , I thrive on crafting digital experiences
-          that seamlessly bridge the web and mobile worlds. My expertise in
-          Next.js and React Native allows me to build solutions that feel
-          natural on any device, whether its a responsive web application or a
-          native mobile experience. I approach each project with a commitment to
-          clean code and thoughtful architecture, ensuring that every line
-          serves a purpose and every feature enhances the user experience.
-          Beyond the code, Im passionate about creating applications that make a
-          real difference in peoples lives. My full-stack background gives me a
-          comprehensive understanding of how all the pieces fit together, from
-          database design to pixel-perfect interfaces.
+        <p className="text-white xl:text-lg absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[450px] font-serif px-16 xl:p-0">
+          My journey into software development did not start with a line of code
+          but by playing the OG prince of persia on my old computer. As a kid
+          utterly captivated by video games, I wasnt just playing them – I was
+          fascinated by how they worked. My original dream might have been to do
+          pure sciences and become a physicist but one thing lead to another,
+          and my love of video games and how they were made, my curiosity for
+          logic and science and my passion for art and how things looked, all
+          combined and shaped into this future where I am working as a software
+          engineer. But this is just a beginning. While I have learned
+          all-things-web over the many years I&apos;ve yet to tinker with Game
+          Devlopment and Hardware and eventually A.I. But in the meantime, I am
+          learning everyday and enjoying this ride.
         </p>
       </div>
     </div>
